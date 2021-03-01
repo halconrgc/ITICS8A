@@ -18,7 +18,7 @@ public class MenuOp {
                   calf2=Integer.parseInt(JOptionPane.showInputDialog("Dame la segunda calificación"));
                   calf3=Integer.parseInt(JOptionPane.showInputDialog("Dame la última calificación"));
                   promedio=(calif1+calif2+calif3)/3;
-                  JOptionPane.showMessageDialog(null, "El Promedio es: "+promedio);
+                  JOptionPane.showMessageDialog(null, "El Promedio es: "+promedio+);
                   break;
               case 2:
                   JOptionPane.showMessageDialog(null, "Tabla");
